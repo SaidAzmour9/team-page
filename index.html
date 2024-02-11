@@ -6,6 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.1.0/remixicon.css">
     <script src="https://cdn.tailwindcss.com"></script>
 
   <script>
@@ -40,15 +41,24 @@
                         <li><a href="#" class="underline underline-offset-1">Log In</a></li>
                         <button class="w-[184px] h-[47px] bg-[#5468E780] rounded-lg">Get Access</button>
                     </ul>
+                    <button class="md:hidden">
+                      <i class="ri-menu-line text-5xl"></i>
+                   </button>
                 </nav>
             </div>
             <div class=" py-36 flex">
                 <div class="space-y-8">
                     <h1 class="font-bold text-[50px] w-1/2">Instant collaboration for remote teams</h1>
                     <p class="text-lg font-normal w-1/2">All-in-one place for your remote team to chat, collaborate and track project progress.</p>
-                    <input placeholder="Email" class="py-3 pl-4 border border-[#D0D5DD] rounded-lg w-[298px] h-[47px]">
-                    <i class="fas fa-user"></i>
-                    <button class="bg-sBlue rounded-lg w-[298px] h-[47px]">Get Early Access</button>
+                    <div class="flex flex-col gap-4 md:flex-row">
+                      <div class="relative inline-block bg-wht border-[#D0D5DD] rounded-lg w-[298px] h-[47px]  pl-6">
+                        <input placeholder="Email" class="absolute border-0 hover:border-0 focus:border-0 hover:outline-0 focus:outline-0  bg-none py-2 text-dBlue bg-wht">
+                        <a href="#"><i class="absolute ri-arrow-right-line text-dBlue right-2 bottom-[5px] pb-[5px] text-2xl"></i></a>
+                      </div>
+                      <div class="inline-block">
+                        <button class="bg-sBlue rounded-lg w-[298px] h-[47px]">Get Early Access</button>
+                      </div>
+                    </div>
                 </div>
             </div>
     </header>
@@ -62,7 +72,7 @@
         </p>
         <a href="#" class="text-sBlue underline underline-offset-1">Learn more</a>
       </div>
-      <div class="md:w-1/2 flex flex-col">
+      <div class=" md:w-1/2 flex flex-col">
         <img src="images/mockup.png" alt="mockup" class="w-full">
       </div>
     </section>
