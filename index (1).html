@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            wht: "#F5F5F5",
+            sBlue: "#5468E7",
+            dBlue: "#232340",
+            pColor: "#232340E5",
+
+          },
+        },
+        fontFamily:{
+            Deca: '"Lexend Deca", "sans-serif"',
+          }
+      }
+    }
+  </script>
+    <title>Team</title>
+</head>
+<body class="font-Deca">
+
+    <header class="bg-[url('images/hero.png')]  bg-cover bg-no-repeat bg-center text-wht ">
+            <div class=" flex items-center justify-between md:px-28 md:pl-10 pl-[30px] md:pl-[60px] lg:pl-28 px-10">
+                <nav class="flex items-center justify-between">
+                  <a href="#" class="font-semibold text-[52px]">team<span class="text-sBlue">.</span></a>
+                  <ul class="hidden md:flex space-x-4 lg:space-x-16 items-center">
+                      <li><a href="#" class="underline underline-offset-1">Product</a></li>
+                      <li><a href="#" class="underline underline-offset-1">Blog</a></li>
+                      <li><a href="#" class="underline underline-offset-1">Support</a></li>
+                      <li><a href="#" class="underline underline-offset-1">Log In</a></li>
+                      <button class="w-[184px] h-[47px] bg-[#5468E780] rounded-lg">Get Access</button>
+                  </ul>
+              </nav>
+                <img src="https://i.postimg.cc/t4sv7PNn/menu-line-4.png" alt="menu" class="md:hidden h-10 ">
+            </div>
+            
+            <div class="px-10 md:px-28 py-36  pl-[30px] md:pl-[60px] lg:pl-28 flex">
+              <div class="space-y-8">
+                  <h1 class="md:font-bold md:text-[50px] md:w-1/2 font-semibold text-5xl leading-28">Instant collaboration for remote teams</h1>
+                  <p class="md:md:w-1/2 font-normal ">All-in-onInstant collaboration for remote teams
+                  All-in-one place for your remote team to chat, collaborate and track project progress.
+                  
+                  e place for your remote team to chat, collaborate and track project progress.</p>
+                  <input placeholder="Email" class="py-3 pl-4 border border-[#D0D5DD] rounded-lg w-[298px] h-[47px]">
+                  <i class="fas fa-user"></i>
+                  <button class="bg-sBlue rounded-lg w-[298px] h-[47px]">Get Early Access</button>
+              </div>
+          </div>
+    </header>
+
+    <main>
+
+      <!-- starting section2 -->
+      <section class="flex flex-col-reverse md:flex-row pl-[30px] md:pl-[60px] lg:pl-28 gap-12 my-20">
+        <div class="md:w-1/2 flex flex-col md:pr-10">
+          <h1 class="text-dBlue font-bold text-[50px] ">Chats for your distributed teams</h1>
+          <p class="text-[18px] mb-12 mt-6">
+            Team combines the immediacy of real-time chat with an email threading model. With Team, you can catch up on important conversations while ignoring irrelevant ones.
+          </p>
+          <h3><a href="#" class="text-sBlue underline underline-offset-1">Learn more </a><i class="ri-arrow-right-line text-sBlue"></i></h3>
+        </div>
+        <div class="md:w-1/2 flex flex-col">
+          <img src="images/mockup.png" alt="mockup" class="w-full">
+        </div>
+      </section>
+      <!-- Ending section2 -->
+
+      <!-- start of the grids sections -->
+      <section class="grid grid-cols-1 md:grid-cols-2 gap-y-12 md:gap-y-28 lg:mx-28 lg:mx-28 my-20" >
+        <!-- section1 -->
+          <section>
+            <div class="w-full h-full">
+              <img src="images/img-1.png" alt="img-1" class="w-full h-full" >
+            </div>
+          </section>
+          <section class="flex items-center pl-[30px] lg:pl-[135px] md:pl-0">
+            <div class="space-y-8 ">
+              <h2 class="text-dBlue font-bold text-[40px] leading-[64px] ">Chats for your distributed teams</h2>
+              <p class="text-[15px]">
+                Team combines the immediacy of real-time chat with an email threading model. With Team, you can catch up on important conversations while ignoring irrelevant ones.
+              </p>
+              <h3><a href="#" class="text-sBlue underline underline-offset-1">Learn more </a><i class="ri-arrow-right-line text-sBlue"></i></h3>
+            </div>
+          </section>
+          <!-- end of section1 -->
+          <!-- section2 -->
+          <section class="flex items-center pl-[30px] lg:pr-[135px] md:pl-0">
+            <div class="space-y-8 ">
+              <h2 class="text-dBlue font-bold text-[40px] leading-[64px] ">Choose how you want to work</h2>
+              <p class="text-[15px]">
+                In Team, you’ve got all the flexibility to work when, where and how it’s best for you. You can easily chat, send audio and video clips, or hop on a huddle to talk things out live.
+              </p>
+              <h3><a href="#" class="text-sBlue underline underline-offset-1">Learn more </a><i class="ri-arrow-right-line text-sBlue"></i></h3>
+            </div>
+          </section>
+          <section>
+            <div class="w-full h-full">
+              <img src="images/img-2.png" alt="img-2" class="w-full h-full" >
+            </div>
+          </section>
+          <!-- end of section2 -->
+          <!-- section3 -->
+          <section>
+            <div class="w-full h-full">
+              <img src="images/img-3.png" alt="img-3" class="w-full h-full" >
+            </div>
+          </section>
+          <section class="flex items-center pl-[30px] lg:pl-[135px] md:pl-0">
+            <div class="space-y-8">
+              <h2 class="text-dBlue font-bold text-[40px] leading-[64px] ">Move faster with your Team tools</h2>
+              <p class="text-[15px]">
+                With your other work apps connected to Team, you can work faster by switching tabs less. And with powerful tools like Workflow Builder, you can automate away routine tasks.</p>
+              </p>
+              <h3><a href="#" class="text-sBlue underline underline-offset-1">Learn more </a><i class="ri-arrow-right-line text-sBlue"></i></h3>
+            </div>
+          </section>
+          <!-- end of section3 -->
+      </section>
+      <!-- end of the grids sections -->
+    </main>
+
+    <footer class="grid grid-cols-1 bg-dBlue p-10 lg:px-28 md:px-12 ">
+      
+      <section class="lg:flex lg:flex-col-3 lg:space-x-20 lg:p-0 items-center space-y-12">
+
+        <section class="space-y-4">
+          <a href="#" class="text-white font-bold text-[52px]">team<span class="text-sBlue">.</span></a>
+          <p class="text-white">Collaboration platform <br> for mordern team </p>
+        </section>
+
+        <section class="space-y-8 md:flex md:flex-col-3 items-center md:space-x-16 ">
+          <div>
+            <ul class="text-white space-y-4">
+              <li><h3 class="text-sBlue text-[24px]">Features</h3></li>
+              <li>Product</li>
+              <li>Blog</li>
+              <li>Support</li>
+            </ul>
+          </div>
+
+          <div>
+            <ul class="text-white space-y-4 ">
+              <li><h3 class="text-sBlue text-[24px]">Features</h3></li>
+              <li>Screen Sharing</li>
+              <li>iOS & Android Apps</li>
+              <li>File Sharing</li>
+              <li>User Managment</li>
+            </ul>
+          </div>
+
+          <div>
+            <ul class="text-white space-y-4 ">
+              <li><h3 class="text-sBlue text-[24px]">Features</h3></li>
+              <li>info@teamapp.com</li>
+              <li>1-800-200-300</li>
+              <li>1010 Sunset Blv. <br>
+                Palo Alto, California</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="space-y-4">
+          <h3 class="text-sBlue text-[24px]">Stay up to date </h3>
+          <p class="text-wht">Subscribe to our newseller</p>
+          <input placeholder="Email" class="py-3 pl-4 bg-[#6B7280] border-[#6B7280] rounded-lg w-[298px] h-[47px]">
+        </section>
+
+      </section>
+
+      <section>
+          <p class="text-white mt-28">© Copyright Team Inc.</p>
+      </section>
+
+    </footer>
+
+</body>
+</html>
